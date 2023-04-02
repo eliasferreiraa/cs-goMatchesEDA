@@ -19,6 +19,12 @@ O jogo é jogado em rodadas, e cada rodada tem uma duração máxima de dois min
 
 # Preparação
 
+# --------------------------------------------------------------------------
+# ATENÇÃO!!!!!!!!!!
+# COMO DITO NO README DA PASTA CSGO-PROFESSIONAL-MATCHES
+# EXTRAIR O ARQUIVO csv-archives.rar E APAGAR O RAR APÓS A EXTRAÇÃO!!!!!!!!!
+# --------------------------------------------------------------------------
+
 **Importando bibliotecas e carregando as tabelas.**
 
 
