@@ -1676,6 +1676,8 @@ fig.add_trace(go.Scatter(x=index_plot,y=gb.values, name='results'))
 fig.update_layout(xaxis_type='category',title='Scores distribution',xaxis_title='Score',yaxis_title='Percentage of matches (%)')
 ```
 
+![png](Imagens/1.png)
+
 ```python
 overtime_percentage
 ```
@@ -1751,6 +1753,8 @@ fig.update_layout(title='Distribution of rounds between CT and T sides',
                   yaxis_title='Percentage of round won on the CT-side (%)')
 fig.show()
 ```
+
+![png](Imagens/2.png)
 
 **Existem longos períodos sem dados para um mapa no gráfico. Isso ocorre porque os mapas são adicionados e removidos constantemente da lista de mapas disponíveis.**
 
@@ -1862,6 +1866,8 @@ for _map in maps:
 fig.update_layout(barmode='stack',legend=dict(traceorder='normal'),yaxis_title='Number of maps played',font=dict(size=10))
 fig.show()
 ```
+
+![png](Imagens/3.png)
 
 **Como apontado anteriormente, Nuke é historicamente o mapa menos popular do mapa de jogo. Isso tem mudado recentemente, já que equipes que costumavam eliminar o mapa agora estão banindo mapas como Vertigo.**
 
